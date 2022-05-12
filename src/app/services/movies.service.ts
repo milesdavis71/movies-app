@@ -7,6 +7,6 @@ import { HttpClient } from '@angular/common/http'
 export class MoviesService {
   constructor(private http: HttpClient) {}
   getMovies() {
-    return this.http.get('https://api.themoviedb.org/3/movie/550?api_key=bd3760ab8ae6f4eaa1b79063222a3ec1')
+    return this.http.get('https://api.themoviedb.org/3/movie/upcoming?api_key=bd3760ab8ae6f4eaa1b79063222a3ec1')
   }
 }
